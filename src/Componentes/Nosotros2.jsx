@@ -4,10 +4,10 @@ import { Accordion } from "flowbite-react";
 export const Nosotros2 = () => {
 
   return (
-    <div className='py-12 px-10'>
-        <div className="max-w-7xl flex flex-col md:flex-row md:justify-between  gap-12 md:px-6">
+    <div className='py-12 px-16'>
+        <div className="max-w-7xl flex flex-col md:flex-row md:justify-between  gap-12">
             <div className="flex flex-col items-start gap-8 text-left md:basis-1/2">
-                <h2 className="text-5xl font-light md:pr-12">Nos asociamos con las universidades líderes del mundo.</h2>
+                <h2 className="text-4xl font-light md:pr-12">Nos asociamos con las universidades líderes del mundo</h2>
                 <p className='leading-loose'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel qui temporibus aperiam ratione reiciendis velit nobis voluptatem beatae ipsa quisquam illum at, facilis, cum vero maxime veniam perspiciatis, mollitia aut.</p>
                 <button>ver más</button>
             </div>

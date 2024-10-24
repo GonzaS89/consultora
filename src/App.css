@@ -38,17 +38,23 @@ button{
 }
 
 
-@media (min-width:768px){
   .servicio-img{
     width:50%;
+    background-position: center
+  }
+
+@media (min-width: 768px){
+  .portada-img{
+  width: 50%;
+  height:500px;
+  background-position: 50% 0;
   }
 }
-
 
 @media (min-width:1024px){
   .portada-img{
     width: 500px;
-    height: 650px
+    height: 600px
   }
 }
 
@@ -58,4 +64,10 @@ button{
   height: 500px;
   background-size: cover;
   background-position: 40% 0%;
+}
+
+@media (min-width: 768px){
+  .contacto-img{
+  background-position:10% 50%
+  }
 }
