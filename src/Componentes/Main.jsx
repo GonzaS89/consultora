@@ -5,6 +5,7 @@ import { Nosotros } from './Nosotros'
 import { Servicios } from './Servicios'
 import { Nosotros2 } from './Nosotros2'
 import { Mensaje } from './Mensaje'
+import { Contacto } from './Contacto'
 
 export const Main = () => {
   return (
@@ -15,6 +16,7 @@ export const Main = () => {
         <Servicios/>
         <Nosotros2/>
         <Mensaje/>
+        <Contacto/>
     </div>
   )
 }
