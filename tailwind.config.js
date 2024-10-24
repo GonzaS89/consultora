@@ -2,9 +2,13 @@
 module.exports = {
   content: [
     "./src/**/*.{js,jsx,ts,tsx}",
+    "./node_modules/flowbite/**/*.js"
   ],
   theme: {
     extend: {
+      fontFamily : {
+        open : "Open Sans"
+      },
       colors:{
         morado : '#4345e7 !important',
         gris: '#f2f2f2',
@@ -12,5 +16,7 @@ module.exports = {
       }
     },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ],
 }

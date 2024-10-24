@@ -3,6 +3,7 @@ import { Header } from './Header'
 import { Portada } from './Portada'
 import { Nosotros } from './Nosotros'
 import { Servicios } from './Servicios'
+import { Nosotros2 } from './Nosotros2'
 
 export const Main = () => {
   return (
@@ -11,6 +12,7 @@ export const Main = () => {
         <Portada />
         <Nosotros/>
         <Servicios/>
+        <Nosotros2/>
     </div>
   )
 }

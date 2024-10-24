@@ -20,8 +20,13 @@ p, li{
 button{
   font-family: "Oswald", sans-serif;
   color:white;
-  text-transform: uppercase
+  text-transform: uppercase;
+  background-color:#4345e7;
+  padding:8px 80px;
+  letter-spacing:1.6px;
+  font-weight:bold
 }
+
 
 .portada-img{
   width: 100%;
@@ -30,4 +35,12 @@ button{
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat
+}
+
+.sin-icono > svg {
+  display: none;
+}
+
+.accordion-button.bg-gray-100{
+  background-color: transparent !important
 }
