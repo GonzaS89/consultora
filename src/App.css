@@ -39,7 +39,7 @@ button{
 
 
   .servicio-img{
-    width:50%;
+    width:100%;
     background-position: center
   }
 
@@ -63,7 +63,7 @@ button{
   width: 100%;
   height: 500px;
   background-size: cover;
-  background-position: 40% 0%;
+  background-position: 0 50%;
 }
 
 @media (min-width: 768px){
