@@ -37,8 +37,19 @@ button{
   background-repeat: no-repeat
 }
 
-.sin-icono > svg {
-  display: none;
+
+@media (min-width:1024px){
+  .servicio-img{
+    width:50%;
+  }
+}
+
+
+@media (min-width:1024px){
+  .portada-img{
+    width: 500px;
+    height: 650px
+  }
 }
 
 .contacto-img{

@@ -5,13 +5,13 @@ export const Nosotros2 = () => {
 
   return (
     <div className='py-12 px-10'>
-        <div className="max-w-7xl flex flex-col gap-12">
-            <div className="flex flex-col items-start gap-8 text-left ">
-                <h2 className="text-5xl font-light">Nos asociamos con las universidades líderes del mundo.</h2>
+        <div className="max-w-7xl flex flex-col md:flex-row md:justify-between  gap-12 md:px-6">
+            <div className="flex flex-col items-start gap-8 text-left md:basis-1/2">
+                <h2 className="text-5xl font-light md:pr-12">Nos asociamos con las universidades líderes del mundo.</h2>
                 <p className='leading-loose'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel qui temporibus aperiam ratione reiciendis velit nobis voluptatem beatae ipsa quisquam illum at, facilis, cum vero maxime veniam perspiciatis, mollitia aut.</p>
                 <button>ver más</button>
             </div>
-            <Accordion className='border-none w-full'>
+            <Accordion className='border-none w-full md:basis-1/2'>
       <Accordion.Panel>
         <Accordion.Title className='p-0 h-16'>
           <h2 className='font-open capitalize text-sm font-bold text-morado'>Create a Webinar en minutos</h2>
