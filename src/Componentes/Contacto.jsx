@@ -41,6 +41,7 @@ export const Contacto = () => {
           </div>
           <Textarea id="comment" placeholder="Leave a comment..." required rows={4} />
         </div>
+        <button>Enviar</button>
           </div>
           
       </div>
