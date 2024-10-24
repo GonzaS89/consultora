@@ -2,7 +2,7 @@ import React from 'react';
 import { FaFacebookF } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
-import { Label, TextInput, Textarea } from "flowbite-react";
+import { TextInput, Textarea } from "flowbite-react";
 
 
 
@@ -23,25 +23,16 @@ export const Contacto = () => {
         </div>
         <span className='flex contacto-img'></span>
         <div>
-          <div className='mt-2'>
-            <div className="mb-2 flex flex-col">
-              <Label htmlFor="small" value="Nombre y apellido" className='text-white text-left' />
-            </div>
+          <div className='mt-4'>
             <TextInput id="small" type="text" sizing="sm" placeholder='Indicanos tu nombre'/>
           </div>
-          <div className='mt-2'>
-            <div className="mb-2 flex flex-col">
-              <Label htmlFor="small" value="Dirección de email" className='text-white text-left' />
-            </div>
+          <div className='mt-4'>
             <TextInput id="small" type="text" sizing="sm" placeholder='Ingresá tu email'/>
           </div>
-          <div className='mt-2'>
-          <div className="mb-2 flex">
-            <Label htmlFor="comment" value="Tu consulta" className='text-white text-left' />
-          </div>
+          <div className='mt-4'>
           <Textarea id="comment" placeholder="Leave a comment..." required rows={4} />
         </div>
-        <button>Enviar</button>
+        <button className='mt-6 w-full'>Enviar</button>
           </div>
           
       </div>
