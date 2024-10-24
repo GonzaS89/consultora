@@ -49,6 +49,10 @@ button{
   height:500px;
   background-position: 50% 0;
   }
+
+  .servicio-img{
+    width: 50%
+  }
 }
 
 @media (min-width:1024px){
